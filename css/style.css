@@ -546,14 +546,15 @@ header.sticky{
     height: 100%;
     transition: all .5s;
     opacity: 0;  
+    border-radius: 10px;
     
 }
     
 .portfolio__card:hover .portfolio__overlay{
     background-image: linear-gradient(to right,#0e1b1f44 0,#09293365 51%,#0e1b1f62 100%);
     opacity: 1;  
-}
 
+}
 
 .overlay__icon{
     position: absolute;
@@ -1205,19 +1206,35 @@ header.sticky{
     color: #fff;
     font-size: 16px;
 }
+
 .logo__item i{
     color: #fff;
     font-size: 26px;
     line-height: 1.5;
 }
 
+.backToTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #f55f8d;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 8px;
+    opacity: 0;
+    visibility: hidden ;
+}
 
-
-
-
-
-
-
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
 
 
 
