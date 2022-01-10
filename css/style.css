@@ -1205,6 +1205,12 @@ header.sticky{
     color: #fff;
     font-size: 16px;
 }
+.logo__item i{
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.5;
+}
+
 
 
 
